@@ -2,6 +2,8 @@ require("dotenv").config();
 var axios = require("axios");
 var keys = require("./keys.js");
 var fs = require("fs");
+var moment = require("moment");
+
 var Spotify = require("node-spotify-api");
 var spotify = new Spotify(keys.spotify);
 var text = "";
@@ -43,6 +45,7 @@ function concert(artist) {
 
   axios.get(url).then(function(response) {
     console.log("___Upcoming Events___");
+
     text =
       "Artist: " +
       artist +
@@ -53,8 +56,9 @@ function concert(artist) {
       ", " +
       response.data[0].venue.country +
       "\nDate: " +
-      response.data[0].datetime.split("T")[0] +
+      moment(response.data[0].datetime).format("MM/DD/YYYY") +
       "\n";
+
     console.log(text);
     fileAppend();
   });
