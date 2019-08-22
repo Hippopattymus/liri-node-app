@@ -23,11 +23,11 @@ LIRI uses the following commands:
 
 ## How to Run LIRI-Bot
 
-#### One: node liri concert-this
+#### One: **node liri concert-this**
 
 This will show the next upcoming concert for an artist inputted.
 
-#### Two: node liri spotify-this-song <song name here>.
+#### Two: **node liri spotify-this-song <song name here>**
 
 This will show the following information about the song in your terminal/bash window:
 
@@ -37,7 +37,7 @@ This will show the following information about the song in your terminal/bash wi
 > - The album that the song is from
 > - If no song is provided then the program will default to "The Sign" by Ace of Base
 
-#### Three: node liri.js movie-this <movie name here>.
+#### Three: **node liri.js movie-this <movie name here>**
 
 This will output the following information to your terminal/bash window:
 
@@ -51,7 +51,7 @@ This will output the following information to your terminal/bash window:
 
 If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody'
 
-#### Step Four: node liri.js do-what-it-says
+#### Step Four: **node liri.js do-what-it-says**
 
 > This will output the command placed in random.txt file
 
