@@ -31,23 +31,23 @@ This will show the next upcoming concert for an artist inputted.
 
 This will show the following information about the song in your terminal/bash window:
 
-> Artist(s)
-> The song's name
-> A preview link of the song from Spotify
-> The album that the song is from
-> If no song is provided then the program will default to "The Sign" by Ace of Base
+> - Artist(s)
+> - The song's name
+> - A preview link of the song from Spotify
+> - The album that the song is from
+> - If no song is provided then the program will default to "The Sign" by Ace of Base
 
 #### Three: node liri.js movie-this <movie name here>.
 
 This will output the following information to your terminal/bash window:
 
-> Title of the movie.
-> Year the movie came out.
-> IMDB Rating of the movie.
-> Country where the movie was released.
-> Language of the movie.
-> Plot of the movie.
-> Actors in the movie.
+> - Title of the movie.
+> - Year the movie came out.
+> - IMDB Rating of the movie.
+> - Country where the movie was released.
+> - Language of the movie.
+> - Plot of the movie.
+> - Actors in the movie.
 
 If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody'
 
@@ -57,9 +57,9 @@ If the user doesn't type a movie in, the program will output data for the movie 
 
 ## Display
 
-![Screenshot One](/screenshots/1.jpg)
+![Screenshot One](/screenshots/1.png)
 
-![Screenshot Two](/screenshots/2.jpg)
+![Screenshot Two](/screenshots/2.png)
 
 ## Author
 
