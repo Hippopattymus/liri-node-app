@@ -57,9 +57,9 @@ If the user doesn't type a movie in, the program will output data for the movie 
 
 ## Display
 
-![Screenshot One](/screenshots/1.png)
+![Screenshot One](/screenshots/one.png)
 
-![Screenshot Two](/screenshots/2.png)
+![Screenshot Two](/screenshots/two.png)
 
 ## Author
 

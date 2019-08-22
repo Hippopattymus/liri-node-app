@@ -44,10 +44,9 @@ function concert(artist) {
     "/events?app_id=codingbootcamp";
 
   axios.get(url).then(function(response) {
-    console.log("___Upcoming Events___");
-
     text =
-      "Artist: " +
+      "\n___Upcoming Events___" +
+      "\nArtist: " +
       artist +
       "\nVenue: " +
       response.data[0].venue.name +
